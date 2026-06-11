@@ -1,44 +1,46 @@
-# Mathematical Methods in Engineering - Computer Assignment 1
+# Mathematical Methods in Engineering - Computer Assignments
 
-This repository contains the first computer assignment for the **Mathematical Methods in Engineering** course (Course Code: 25872) at **Sharif University of Technology** (Spring 2025).
+This repository contains the complete set of computer assignments (CAs) for the **Mathematical Methods in Engineering** course (Course Code: 25872) at **Sharif University of Technology** (Spring 2025), instructed by **Dr. Pilaram**.
 
-The project focuses on numerical linear algebra, matrix factorizations, and their practical engineering applications, implemented entirely in Python.
+The projects focus on numerical linear algebra, matrix factorizations, data science basics, and practical engineering applications, implemented entirely in Python.
 
-## 📌 Topics Covered
+## 📂 Repository Structure
 
-This project is divided into four main sections:
+The repository is organized into distinct directories for each computer assignment:
+* `/CA1_Linear_Algebra_and_Transformations`: Foundations of matrix elimination, circuit solving, KNN, and 2D geometric transformations.
+* `/CA2_Regression_SVD_PCA`: Advanced applications including linear/polynomial regression, SVD-based image compression, and Principal Component Analysis.
 
-1. **Matrix Operations & Factorizations**
-   - Gaussian Elimination
-   - Gauss-Jordan Elimination (Reduced Row Echelon Form)
-   - Matrix Inversion
-   - LU and LDU Decompositions
+---
 
-2. **Engineering Applications**
-   - **Circuit Analysis:** Solving electrical circuits using matrix methods.
-   - **Image Processing:** Applying numerical arrays and voltage values to process and generate images.
+## 📌 Project Overview & Highlights
 
-3. **Data Science & Machine Learning Basics**
-   - **NumPy Broadcasting:** Efficient tensor and matrix operations.
-   - **K-Nearest Neighbors (KNN):** Implementing the KNN classification algorithm from scratch.
+### 🔹 Computer Assignment 1: Matrix Operations, ML Basics & 2D Transformations
+Focuses on implementing foundational linear algebra algorithms from scratch and applying them to circuits, image arrays, and geometry.
+* **Matrix Decompositions:** Built-from-scratch implementations of Gaussian Elimination, Gauss-Jordan Elimination (RREF), Matrix Inversion, and LU/LDU Factorizations.
+* **Engineering Applications:** - *Circuit Analysis:* Solving complex electrical circuits using node/mesh matrix methods.
+  - *Voltage-Based Image Processing:* Transforming array voltages into visual data processing.
+* **Data Science Basics:** Efficient vector operations using NumPy Broadcasting and a custom implementation of the **K-Nearest Neighbors (KNN)** classification algorithm.
+* **2D Geometric Transformations:** Implementing and visualizing fundamental graphics transformations (Scaling, Rotation, Translation, and Composite operations), including a bonus module for reflection across arbitrary axes.
 
-4. **2D Geometric Transformations**
-   - Implementation of fundamental 2D transformations (Scaling, Rotation, Translation).
-   - Composite transformations and matrix multiplication.
-   - Visualization of basic shapes before and after transformations.
-   - **Bonus:** Reflection transformations across the x-axis, y-axis, and arbitrary lines.
+### 🔹 Computer Assignment 2: Regression, SVD Compression & PCA
+Focuses on dimensionality reduction, predictive modeling, and data compression using advanced matrix factorization techniques.
+* **Regression Analysis:** Implementing **Linear Regression** and **Polynomial Regression** models to handle non-linear data distributions and assessing fitting accuracy.
+* **Image Compression via SVD:** Decomposing multi-channel BMP images using Singular Value Decomposition (SVD) and reconstructing them using truncated singular values to analyze the trade-off between file storage size and visual quality.
+* **Principal Component Analysis (PCA):** Developing the PCA algorithm from scratch for feature extraction, dimensionality reduction, and high-dimensional data visualization.
+
+---
 
 ## 🛠️ Technologies & Libraries Used
 
 - **Python 3**
-- **NumPy** (for core matrix operations and broadcasting)
-- **Pandas** (for data manipulation)
-- **Matplotlib** (for plotting and shape visualization)
-- **SymPy** (for symbolic mathematics)
-- **OpenCV** (for image processing)
+- **NumPy** (for efficient tensor broadcasting and matrix operations)
+- **Pandas** (for tabular data manipulation)
+- **Matplotlib** (for rendering shape transformations, regression lines, and image outputs)
+- **SymPy** (for symbolic mathematical verifications)
+- **OpenCV (cv2)** (for basic image array manipulation)
 
 ## 🚀 How to Run
 
-1. Clone this repository:
+1. Clone this unified repository to your local system:
    ```bash
-   git clone https://github.com/VahidHamzeh/Mathematical-Methods-In-Engineering-Assignment1.git
+   git clone [https://github.com/VahidHamzeh/Mathematical-Methods-In-Engineering.git](https://github.com/VahidHamzeh/Mathematical-Methods-In-Engineering-ComputerAssignments.git)
