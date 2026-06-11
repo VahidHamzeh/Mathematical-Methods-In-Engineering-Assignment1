@@ -41,4 +41,4 @@ This project is divided into four main sections:
 
 1. Clone this repository:
    ```bash
-   git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+   git clone https://github.com/VahidHamzeh/Mathematical-Methods-In-Engineering-Assignment1.git
