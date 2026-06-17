@@ -1,3 +1,7 @@
+![Math](https://img.shields.io/badge/Domain-Numerical_Linear_Algebra-blue?style=for-the-badge&logo=python&logoColor=white)
+![Algorithms](https://img.shields.io/badge/Algorithms-PCA_&_SVD-red?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Tool](https://img.shields.io/badge/Library-NumPy-orange?style=for-the-badge&logo=numpy&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge&logo=github&logoColor=white)
 # Mathematical Methods in Engineering - Computer Assignments
 
 This repository contains the complete set of computer assignments (CAs) for the **Mathematical Methods in Engineering** course (Course Code: 25872) at **Sharif University of Technology** (Spring 2025), instructed by **Dr. Pilaram**.
